@@ -1,0 +1,31 @@
+// .title {
+//     display: flex !important;
+//     margin-right: auto !important;
+// }
+
+p {
+    padding-left: 1rem;
+}
+
+.bioForm {
+    background: #F5F5F5 !important;
+    border: 5px solid rgba(160, 187, 255, 0.8);
+    border-radius: 1.3rem !important;
+    // width: 28rem;
+}
+
+.form {
+    margin: 2rem 2rem;
+}
+
+.errorMsgDiv {
+    padding-left: 0.5rem;
+}
+
+.errorMsg {
+    display: flex !important;
+    justify-content: flex-start !important;
+    margin-left: 1rem !important;
+    color: #d55c72 !important;
+    font-family: 'Abyssinica SIL' !important;
+}

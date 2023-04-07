@@ -1,0 +1,93 @@
+.cover {
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.logo {
+    width: 4rem;
+    align-items: center;
+    margin: 2px 50% 0px 42%;
+}
+
+.logoSpan {
+    margin-top: 0.2rem !important;
+    display: flex !important;
+    text-align: center !important;
+    font-size: 0.7rem !important;
+
+}
+
+.iranUniversitySpan {
+    font-family: 'itim' !important;
+    color: #000000 !important;
+}
+
+.departmentSpan {
+    font-family: 'itim' !important;
+    color: #606060 !important;
+}
+
+.googleAccForm {
+    background-color: rgba(37, 55, 100, 0.8) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0.8rem !important;
+    width: 25rem !important;
+    height: 18rem !important;
+    margin-top: 1rem !important;
+}
+
+.googleAccTextbox {
+    padding-top: 4rem;
+    padding-bottom: 0.5rem !important;
+}
+
+.googleAccTextDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.googleAccInputText {
+    text-align: center !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0.7rem !important;
+    padding: 0 1.2rem !important;
+    height: 2.8rem !important;
+    width: 18rem !important;
+    border: none !important;
+}
+
+.signIn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.signInBtn {
+    text-transform: lowercase !important;
+    color: #ffffff;
+    padding-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signInSpan {
+    font-family: 'Abyssinica SIL' !important;
+    font-size: 0.9rem !important;
+    color: #ffffff !important;
+    padding: 0.2rem 0 !important;
+}
+
+.errorMsgDiv {
+    margin-left: 1.2rem;
+}
+
+.errorMsg {
+    color: #d55c72 !important;
+}

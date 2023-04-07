@@ -1,0 +1,130 @@
+.cover {
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.logo {
+    width: 4rem;
+    align-items: center;
+    margin: 2px 50% 0px 42%;
+}
+
+.logoSpan {
+    margin-top: 0.2rem !important;
+    display: flex !important;
+    text-align: center !important;
+    font-size: 0.7rem !important;
+
+}
+
+.iranUniversitySpan {
+    font-family: 'itim' !important;
+    color: #000000 !important;
+}
+
+.departmentSpan {
+    font-family: 'itim' !important;
+    color: #606060 !important;
+}
+
+.signUpForm {
+    background-color: rgba(37, 55, 100, 0.8) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.8rem;
+    width: 23rem;
+    height: 30rem;
+}
+
+.signUpTextbox {
+    padding-top: 2rem;
+}
+
+.signUpTextDiv {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 1rem;
+}
+
+.signUpTextField {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0.7rem !important;
+    padding: 0 1.2rem !important;
+    height: 2.8rem !important;
+    width: 18rem !important;
+    border: none !important;
+
+}
+
+.passwordTextField {
+    padding-bottom: 1rem !important;
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.signUpBtn {
+    text-transform: lowercase !important;
+    color: #ffffff;
+    padding-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signUpSubmitSpan {
+    font-family: 'Abyssinica SIL' !important;
+    font-size: 0.9rem !important;
+    color: #ffffff !important;
+    padding: 0.2rem 0 !important;
+}
+
+.errorMsgDiv {
+    margin-left: 0.9rem;
+}
+
+.errorMsg {
+    color: #d55c72 !important;
+}
+
+.signIn {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.signInBtnSpan {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.haveAccSpan {
+    font-family: 'Abyssinica SIL' !important;
+    color: #ffffff !important;
+    margin-top: 1.5rem !important;
+}
+
+.signInBtnDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem !important;
+}
+
+.signInButton {
+    background-color: #92B1FF !important;
+    border-radius: 1.2rem !important;
+}
+
+.signInBtn {
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important
+}

@@ -1,0 +1,27 @@
+.profileCard {
+    width: 25rem;
+    border-radius: 1.3rem !important;
+    box-shadow: 4px 4px 4px rgba(37, 55, 100, 0.5) !important;
+    border-color: rgba(37, 55, 100, 0.5) !important;
+    margin-left: auto;
+    margin-top: 3rem;
+}
+
+.grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info {
+    background: #b6b6b6 !important;
+    border-radius: 1.1rem !important;
+}
+
+.avatar {
+    margin-left: 2.1rem;
+    width: 6rem !important;
+    height: 6rem !important
+}
+
+.proBtn {
+    text-transform: lowercase !important;
+}

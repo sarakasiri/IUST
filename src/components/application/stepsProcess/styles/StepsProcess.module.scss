@@ -1,0 +1,116 @@
+.stepperCard {
+    height: 8.5rem;
+    border-radius: 1rem !important;
+    background: #F5F5F5 !important;
+    border: 4px solid #cccccc;
+    margin-left: 2rem;
+    padding-left: 1.2rem;
+}
+
+.activeIcon {
+    color: #253764cc !important;
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+}
+
+.completeIcon {
+    color: #6CEE69 !important;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+.defaultIcon {
+    color: #cbcaca !important;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+.activeStep {
+    height: 9.5rem;
+    width: 18.3rem;
+    border-radius: 1rem !important;
+    background: #a0bbffc2 !important;
+    border: 4px solid #608BF5;
+    margin-left: 2rem;
+    padding-left: 1.2rem;
+}
+
+.compeleteStep {
+    height: 8.5rem;
+    border-radius: 1rem !important;
+    background: #DBF4DB !important;
+    border: 4px solid #6CEE69;
+    margin-left: 2rem;
+    padding-left: 1.2rem;
+}
+
+.cardContant {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    margin-right: auto !important;
+}
+
+.stepSpan {
+    margin-right: auto !important;
+}
+
+span {
+    color: black !important;
+}
+
+.stepBtn {
+    border: 3px solid #cbcaca !important;
+    text-transform: capitalize !important;
+    margin-right: auto !important;
+    padding-bottom: 1rem !important;
+    width: 6rem !important;
+    height: 0.1rem !important;
+    border-radius: 0.6rem !important;
+    background-color: #ffffff !important;
+    margin-top: 0.6rem !important;
+}
+
+.activeStepBtn {
+    border: 3px solid #515F83 !important;
+    text-transform: capitalize !important;
+    margin-right: auto !important;
+    padding-bottom: 1rem !important;
+    width: 6rem !important;
+    height: 0.1rem !important;
+    border-radius: 0.6rem !important;
+    background-color: #ffffff !important;
+    margin-top: 0.6rem !important;
+}
+
+.compeleteStepBtn {
+    border: 3px solid #64DD62 !important;
+    text-transform: capitalize !important;
+    padding-bottom: 1rem !important;
+    width: 6rem !important;
+    height: 0.1rem !important;
+    border-radius: 0.6rem !important;
+    background-color: #F5F5F5 !important;
+    margin-top: 0.6rem !important;
+}
+
+
+.stepButtonSpan {
+    font-size: 0.8rem !important;
+    padding-top: 0.4rem !important;
+}
+
+.submitButton {
+    background-color: #FF5271 !important;
+    border-radius: 1rem !important;
+    height: 3.5rem;
+    text-transform: capitalize !important;
+    color: #ffffff !important;
+    font-size: 0.95rem !important;
+}
+
+.sliderSteps {
+    height: 100%;
+    // transform: rotate(180deg);
+    margin-top: 7.5rem;
+}

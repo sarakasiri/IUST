@@ -1,0 +1,94 @@
+.cover {
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.logo {
+    width: 4rem;
+    align-items: center;
+    margin: 2px 50% 0px 42%;
+}
+
+.logoSpan {
+    margin-top: 0.2rem !important;
+    display: flex !important;
+    text-align: center !important;
+    font-size: 0.7rem !important;
+}
+
+.iranUniversitySpan {
+    font-family: 'itim' !important;
+    color: #000000 !important;
+}
+
+.departmentSpan {
+    font-family: 'itim' !important;
+    color: #606060 !important;
+}
+
+
+.changePassForm {
+    background-color: rgba(37, 55, 100, 0.8) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0.8rem !important;
+    width: 25rem !important;
+    height: 20rem !important;
+    margin-top: 0.5rem !important;
+}
+
+.form {
+    padding-top: 2rem;
+
+}
+
+.changePassTextbox {
+    padding-bottom: 0.8rem !important;
+}
+
+.changePassTextDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.changePassInputText {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0.7rem !important;
+    padding: 0 1.2rem !important;
+    height: 2.8rem !important;
+    width: 18rem !important;
+    border: none !important;
+}
+
+.changePass {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 0.5rem !important;
+}
+
+.changePassBtn {
+    text-transform: lowercase !important;
+    color: #ffffff !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.changePassSpan {
+    font-family: 'Abyssinica SIL' !important;
+    font-size: 0.9rem !important;
+    color: #ffffff !important;
+    padding: 0.2rem 0 !important;
+}
+
+.errorMsgDiv {
+    margin-left: 1.2rem;
+}
+
+.errorMsg {
+    color: #d55c72 !important;
+}

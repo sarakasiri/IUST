@@ -1,0 +1,188 @@
+@import "../../../../app/styles/colors.scss";
+
+.cover {
+    position: absolute !important;
+    width: 98% !important;
+    height: 98% !important;
+    z-index: -10 !important;
+    overflow: hidden !important;
+}
+
+.container {
+    position: relative !important;
+}
+
+.logo {
+    width: 4rem !important;
+    align-items: center !important;
+    margin: 0px 50% 0px 43% !important;
+}
+
+.logoSpan {
+    margin-top: 0.2rem !important;
+    display: flex !important;
+    text-align: center !important;
+    font-size: 0.7rem !important;
+
+}
+
+.iranUniversitySpan {
+    font-family: 'itim' !important;
+    color: #000000 !important;
+}
+
+.departmentSpan {
+    font-family: 'itim' !important;
+    color: #606060 !important;
+}
+
+.form {
+    background-color: rgba(37, 55, 100, 0.8) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0.8rem !important;
+    width: 24rem !important;
+    height: 34rem !important;
+}
+
+.signInTextbox {
+    padding-top: 2rem;
+}
+
+.signInTextField {
+    padding-bottom: 0.7rem !important;
+
+}
+
+.signInTextDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.signInInputText {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0.7rem !important;
+    padding: 0 1.2rem !important;
+    height: 2.8rem !important;
+    width: 18rem !important;
+    border: none !important;
+}
+
+.btnBox {
+    flex-direction: column !important;
+}
+
+.forgetPass {
+    display: flex !important;
+    justify-content: flex-end !important;
+    font-family: 'Abyssinica SIL' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    padding-right: 1.8rem !important;
+    margin-top: 0.4rem !important;
+}
+
+.forgetPassBtn {
+    color: #ffffff !important;
+}
+
+.checkBoxBtn {
+    margin-left: 30px;
+    color: #FFFFFF !important;
+}
+
+.checkBox {
+    font-family: 'Abyssinica SIL' !important;
+    color: #FFFFFF !important;
+}
+
+.agent {
+    display: flex !important;
+    justify-content: center;
+}
+
+.agentEmail {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0.7rem !important;
+    padding: 0 1.2rem !important;
+    height: 2.8rem !important;
+    width: 18rem !important;
+    border: none !important;
+}
+
+.agentspan {
+    margin-top: 0.2rem !important;
+    font-family: 'Abyssinica SIL' !important;
+    color: #FFFFFF !important;
+}
+
+
+.googleAcc {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 1.2rem !important;
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+.submit {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 0.8rem !important;
+}
+
+.submitBtn {
+    text-transform: capitalize !important;
+    color: #ffffff !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.submitSpan {
+    font-family: 'Abyssinica SIL' !important;
+    font-size: 0.9rem !important;
+    color: #ffffff !important;
+}
+
+.errorMsgDiv {
+    margin-left: 0.3rem;
+}
+
+.errorMsg {
+    color: #d55c72 !important;
+}
+
+.signUp {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.signUpBtnSpan {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.dontHaveAccSpan {
+    font-family: 'Abyssinica SIL' !important;
+    color: #ffffff !important;
+    margin-top: 1.5rem !important;
+}
+
+.signUpBtnDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem !important;
+}
+
+.signUpButton {
+    background-color: #92B1FF !important;
+    border-radius: 1.2rem !important;
+}
+
+.signUpBtn {
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important
+}

@@ -1,0 +1,68 @@
+.profileCard {
+    width: 23rem;
+    border-radius: 1rem !important;
+    border-color: rgba(37, 55, 100, 0.5) !important;
+    background-color: #F5F5F5 !important;
+    margin-left: auto !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.profileInfo {
+    margin: 1.5rem !important;
+}
+
+.avatarDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem !important;
+}
+
+.avatar {
+    margin-left: 2.1rem !important;
+    width: 6rem !important;
+    height: 6rem !important
+}
+
+.proBtn {
+    text-transform: lowercase !important;
+    font-family: 'Abyssinica SIL' !important;
+    color: #FFFFFF !important;
+    padding: 0.3rem 1rem !important;
+}
+
+.infoDiv {
+    margin: 2rem 0.5rem !important;
+}
+
+.BioButton {
+    margin-bottom: 1rem !important;
+}
+
+.reviewBiographyBtnSpan {
+    border: 4px solid #a0bbffc1 !important;
+    border-radius: 0.4rem !important;
+    padding: 0.3rem 0.7rem !important;
+    color: #608BF5CC !important;
+    font-family: 'Abyssinica SIL' !important;
+}
+
+.bioInfoReview {
+    border: 1px solid #0909093a !important;
+    border-radius: 0.6rem !important;
+}
+
+
+.reviewFormButtonDiv {
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin-top: 0.5rem !important;
+    margin-right: 0.7rem !important;
+}
+
+.reviewFormButton {
+    background-color: #92b1ffc0 !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+    border-radius: 0.4rem !important;
+}
