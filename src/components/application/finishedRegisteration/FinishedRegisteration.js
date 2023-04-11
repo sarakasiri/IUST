@@ -8,6 +8,8 @@ import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
+import { Link } from 'react-router-dom';
+
 import finished from '../../../assets/images/finished.png';
 import checked from '../../../assets/images/checked.png';
 
@@ -41,23 +43,27 @@ const FinishedRegisteration = () => {
                                         <span className={classes.subSpan}> you must wait for the results !</span>
                                     </div>
                                     <div>
-                                        <Button
-                                            className={classes.finishedBtn}
-                                            sx={{ width: "75%" }}
-                                            style={{
-                                                backgroundColor: "#608af5c3", marginTop: "1.3rem"
-                                            }}>
-                                            <span classname={classes.btnSpan
-                                            } style={{ color: "#ffffff" }}>Return to dashboard</span>
-                                        </Button>
+                                        <Link to="/dashboard" className={classes.dashboardLink}>
+                                            <Button
+                                                className={classes.finishedBtn}
+                                                sx={{ width: "75%" }}
+                                                style={{
+                                                    backgroundColor: "#608af5c3", marginTop: "1.3rem"
+                                                }}>
+                                                <span classname={classes.btnSpan
+                                                } style={{ color: "#ffffff" }}>Return to dashboard</span>
+                                            </Button>
+                                        </Link>
                                     </div>
                                     <div>
-                                        <Button
-                                            className={classes.makeNewApp}
-                                            sx={{ width: "75%" }}
-                                            style={{ backgroundColor: "#FF5271", marginTop: "1rem" }}>
-                                            <span >Make a New Application!</span>
-                                        </Button>
+                                        <Link>
+                                            <Button
+                                                className={classes.makeNewApp}
+                                                sx={{ width: "75%" }}
+                                                style={{ backgroundColor: "#FF5271", marginTop: "1rem" }}>
+                                                <span >Make a New Application!</span>
+                                            </Button>
+                                        </Link>
                                     </div>
                                 </div>
                             </Grid>

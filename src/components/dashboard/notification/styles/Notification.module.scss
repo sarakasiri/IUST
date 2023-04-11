@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+.box {
+    width: 56rem !important;
+    margin-left: auto;
+}
 
 span {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Abyssinica SIL' !important;
 }
 
 .notifSpan {
     font-size: 1rem;
-    font-weight: bold;
-    margin: 0.7rem 0 !important;
+    font-weight: 100 !important;
+    margin: 0.5rem 0 !important;
+    font-family: 'Abyssinica SIL' !important;
 }
 
 .applySpan {
@@ -16,17 +20,32 @@ span {
     font-weight: bold;
     padding-bottom: 1.2rem;
     margin-top: 2.2rem !important;
+    font-family: 'Abyssinica SIL' !important;
+    font-weight: 100 !important;
 }
 
 .chanceBtn {
     padding: 0.6rem !important;
-    font-size: 1.3rem !important;
-    text-transform: lowercase !important;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1rem !important;
+    text-transform: capitalize !important;
+    font-family: 'Abyssinica SIL' !important;
+    font-weight: 100 !important;
 }
 
 .notifBtn {
-    padding: 1.6rem 0 !important;
-    font-size: 1.3rem !important;
-    text-transform: lowercase !important;
+    padding: 1rem 0 !important;
+    font-size: 1rem !important;
+    text-transform: capitalize !important;
+    font-family: 'Abyssinica SIL' !important;
+    border-radius: 0.8rem !important;
+}
+
+.proBtn {
+    font-weight: 100 !important;
+    color: #ffffff !important;
+
+}
+
+.applyBtn {
+    text-decoration: none !important;
 }

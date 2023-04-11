@@ -12,7 +12,7 @@ import Avatar from "@mui/material/Avatar";
 
 
 const Item = styled(Box)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    backgroundColor: "#F5F5F5",
     ...theme.typography.body2,
     padding: theme.spacing(1),
     textAlign: 'center',
@@ -23,9 +23,9 @@ const Item = styled(Box)(({ theme }) => ({
 const Profile = () => {
     return (
         <Card className={classes.profileCard}>
-            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                <Grid item xs={6}>
-                    <Item>
+            <Item className={classes.cardItem}>
+                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                    <Grid item xs={6}>
                         <Card className={classes.info}>
                             <CardContent>
                                 <div>
@@ -39,31 +39,31 @@ const Profile = () => {
                                 </div>
                             </CardContent>
                         </Card>
-                    </Item>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Item>
+                            <Avatar className={classes.avatar}></Avatar>
+                        </Item>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Item>
+                            <Button className={classes.proBtn}
+                                style={{ borderRadius: "10px", backgroundColor: "#779EFF" }}>
+                                <span className={classes.editBtn}>Edit your profile </span>
+                            </Button>
+                        </Item>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <Item>
+                            <Button className={classes.proBtn}
+                                sx={{ width: "80%" }}
+                                style={{ borderRadius: "10px", backgroundColor: "#779EFF" }}>
+                                <span className={classes.exitSpan}>Exit</span>
+                            </Button>
+                        </Item>
+                    </Grid>
                 </Grid>
-                <Grid item xs={6}>
-                    <Item>
-                        <Avatar className={classes.avatar}></Avatar>
-                    </Item>
-                </Grid>
-                <Grid item xs={6}>
-                    <Item>
-                        <Button className={classes.proBtn}
-                            style={{ borderRadius: "15px", backgroundColor: "#779EFF" }}>
-                            <span className={classes.proBtn}>Edit your profile </span>
-                        </Button>
-                    </Item>
-                </Grid>
-                <Grid item xs={6}>
-                    <Item>
-                        <Button className={classes.proBtn}
-                            sx={{ width: "50%" }}
-                            style={{ borderRadius: "15px", backgroundColor: "#779EFF" }}>
-                            <span>Exit</span>
-                        </Button>
-                    </Item>
-                </Grid>
-            </Grid>
+            </Item>
         </Card>
     );
 };

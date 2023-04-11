@@ -9,6 +9,8 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 
+import { Link } from 'react-router-dom';
+
 const Item = styled(Box)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
     ...theme.typography.body2,
@@ -18,8 +20,8 @@ const Item = styled(Box)(({ theme }) => ({
 
 const Notification = () => {
     return (
-        <Box sx={{ width: '55%', marginTop: "2rem" }} className={classes.box}>
-            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} style={{ paddingTop: "2rem" }}>
+        <Box className={classes.box}>
+            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                 <Grid item xs={7} style={{ marginTop: "0.9rem" }}>
                     <Item>
                         <div className={classes.applySpanBox}>
@@ -32,7 +34,7 @@ const Notification = () => {
                         <Button className={classes.chanceBtn}
                             sx={{ width: "100%" }}
                             style={{
-                                borderRadius: "1.3rem",
+                                borderRadius: "0.8rem",
                                 backgroundColor: "#FF5271"
                             }}>
                             <span className={classes.proBtn}>Take Your Chance!</span>
@@ -58,11 +60,13 @@ const Notification = () => {
                 </Grid>
                 <Grid item xs={7}>
                     <Item>
-                        <Button className={classes.notifBtn}
-                            sx={{ width: "100%" }}
-                            style={{ borderRadius: "1.3rem", backgroundColor: "#FF5271" }}>
-                            <span className={classes.proBtn}>Apply Now !</span>
-                        </Button>
+                        <Link to="/dashboard/new-application" className={classes.applyBtn}>
+                            <Button className={classes.notifBtn}
+                                sx={{ width: "100%" }}
+                                style={{ borderRadius: "1.3rem", backgroundColor: "#FF5271" }}>
+                                <span className={classes.proBtn}>Apply Now !</span>
+                            </Button>
+                        </Link>
                     </Item>
                 </Grid>
                 <Grid item xs={5}>

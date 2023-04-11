@@ -1,27 +1,48 @@
 .profileCard {
-    width: 25rem;
-    border-radius: 1.3rem !important;
-    box-shadow: 4px 4px 4px rgba(37, 55, 100, 0.5) !important;
+    width: 24rem !important;
+    border-radius: 1rem !important;
+    border: none !important;
     border-color: rgba(37, 55, 100, 0.5) !important;
-    margin-left: auto;
-    margin-top: 3rem;
+    color: #F5F5F5 !important;
+    margin-right: 2rem !important;
+}
+
+.cardItem {
+    height: 13rem !important;
 }
 
 .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
 }
 
 .info {
-    background: #b6b6b6 !important;
-    border-radius: 1.1rem !important;
+    background: #E7EAEE !important;
+    border-radius: 0.8rem !important;
+    border: none !important;
+    margin-top: 1rem !important;
+    margin-left: 0.5rem !important;
 }
 
 .avatar {
-    margin-left: 2.1rem;
+    margin-left: 2.1rem !important;
+    margin-top: 0.8rem !important;
     width: 6rem !important;
     height: 6rem !important
 }
 
 .proBtn {
-    text-transform: lowercase !important;
+    margin-top: 0.7rem !important;
+}
+
+.editBtn {
+    text-transform: capitalize !important;
+    padding: 0.2rem 1rem !important;
+    color: #FFFFFF !important;
+}
+
+.exitSpan {
+    text-transform: capitalize !important;
+    padding: 0.2rem 0 !important;
+    color: #FFFFFF !important;
+
 }

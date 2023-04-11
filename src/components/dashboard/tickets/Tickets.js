@@ -1,66 +1,48 @@
 import React from "react";
 
-import classes from './styles/Request.module.scss';
+import classes from './styles/Tickets.module.scss';
 
 import { DataGrid } from "@mui/x-data-grid";
-import { textAlign } from "@mui/system";
 
-const columns = [
+const ticketsColumns = [
     {
-        field: 'requestId',
+        field: 'Ticket No.',
         headerName: 'request ID',
         width: 200
     },
 
     {
-        field: 'date',
+        field: 'Date',
         headerName: 'Data',
         width: 211
     },
 
     {
-        field: 'field',
+        field: 'Status',
         headerName: 'Field ',
         width: 211
     },
 
     {
-        field: 'degree',
+        field: 'The Support Teams Answer',
         headerName: 'Degree',
-        width: 211,
-    },
-    {
-        field: 'universityApproved ',
-        headerName: 'University approved ',
-        width: 211,
-    },
-    {
-        field: 'facultyApproved ',
-        headerName: 'Faculty approved ',
-        width: 211,
-    },
-    {
-        field: 'nextStep',
-        headerName: 'your next step',
-        width: 160,
+        width: 411,
     },
 ];
 
-const rows = [
+const ticketsRows = [
     { id: 1, requestId: 1, date: 'Snow', field: 'Jon', },
     { id: 2, requestId: 2, date: 'Snow', field: 'Jon', },
 ];
 
-const Request = () => {
+const Tickets = () => {
     return (
         <>
-            <div>
+            <div style={{ display: "flex", justifyContent: "center", height: 400, width: '90%' }}>
                 <DataGrid
-                    className={classes.requestData}
                     sx={{
                         fontSize: "1.1rem",
                         padding: 3,
-                        width: "80%",
                         '.MuiDataGrid-columnHeaders': {
                             border: 'none',
                             display: "flex",
@@ -76,10 +58,9 @@ const Request = () => {
                         '.MuiDataGrid-cell': {
                             border: 'none',
                         },
-                        boxShadow: 2,
                         backgroundColor: "#F5F5F5",
                         borderRadius: "1.4rem",
-                        margin: 3,
+                        margin: 1,
                         justifyContent: "center",
                         "& .MuiDataGrid-cell:hover": {
                             color: "primary.main",
@@ -97,8 +78,8 @@ const Request = () => {
                         },
                     }}
                     cell--textCenter
-                    rows={rows}
-                    columns={columns}
+                    rows={ticketsRows}
+                    columns={ticketsColumns}
                     pageSize={5}
                     rowsPerPageOptions={[5]}
                 ></DataGrid>
@@ -107,7 +88,4 @@ const Request = () => {
     );
 };
 
-export default Request;
-
-
-
+export default Tickets;

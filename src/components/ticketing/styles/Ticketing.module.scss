@@ -2,18 +2,19 @@
     margin: 2rem !important;
 }
 
-.formInput {
+input[type=text] {
+
     background-color: #F5F5F5 !important;
+    border-radius: 0.5rem !important;
+    height: 3.5rem !important;
     border: none !important;
-    border-radius: 0.4rem !important;
-    height: 3rem !important;
     width: 100% !important;
     margin-top: 2rem !important;
     padding-left: 2rem !important;
 }
 
 .ticketingTextAreaDiv {
-    margin-top: 2rem !important;
+    margin-top: 2.5rem !important;
 }
 
 .ticketingTextArea {
@@ -32,11 +33,11 @@
 
 .sendButton {
     text-transform: capitalize !important;
-    background-color: #FF5271;
+    background-color: #FF5271 !important;
     width: 9rem !important;
     height: 3rem !important;
     border-radius: 0.8rem !important;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     margin-top: 1rem !important;
 
 }

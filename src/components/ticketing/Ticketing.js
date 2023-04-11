@@ -14,11 +14,10 @@ const Ticketing = () => {
                 <Grid container columns={12}>
                     <Grid xs={4}>
                         <form className={classes.form}>
-                            <div className={classes.inputBox}>
+                            <div className={classes.ticketingInputBox}>
                                 <input
-                                    className={classes.formInput}
+                                    className={classes.ticketingFormInput}
                                     type="text"
-                                    name="firstName"
                                     placeholder="problem type"
                                 />
                             </div>
@@ -26,11 +25,10 @@ const Ticketing = () => {
                     </Grid>
                     <Grid xs={12}>
                         <div className={classes.ticketingTextAreaDiv}>
-                            <textarea placeholder="problem type" className={classes.ticketingTextArea} />
+                            <textarea placeholder="Type here" className={classes.ticketingTextArea} />
                         </div>
                         <div className={classes.sendButtonDiv}>
-                            <Button className={classes.sendButton}>send
-                            </Button>
+                            <Button className={classes.sendButton}>send</Button>
                         </div>
                     </Grid>
                 </Grid>
